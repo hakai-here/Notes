@@ -45,6 +45,7 @@ To create a new partition, follow these steps:
 - Use a specific size (e.g., +1G for 1 gigabyte) or
 - Press Enter to use the remaining space on the disk.
 
+![fdisk image](../../../images/fdisk.png)
 
 ## Formatting a Storage Device
 
@@ -58,6 +59,8 @@ or
 sudo mkfs.exfat -n "label" /dev/<device_partition>
 ```
 Replace <device_partition> with the appropriate partition identifier, such as /dev/sdb1, for your device.
+
+![mkfs image](../../../images/mkfs.png)
 
 ## Mounting the Storage Volume
 After formatting the partition, you can mount it to make it accessible within the file system. You have the flexibility to mount the partition to any folder you like, but commonly used mount points are /mnt for permanent volumes and /media for temporary ones.
@@ -74,7 +77,7 @@ sudo mount -o uid=<uid>,gid=<group_id> /dev/<device_partition> /<mount_path>
 Replace <mount_path> with the directory where you want to access the storage volume.
 
 ## Analyzing Disk Usage with ncdu
-Now, let's introduce you to a powerful storage management tool called ncdu. In case it's not already installed, you might need to install it first. For Debian-based systems like Ubuntu, use:
+Now, let's introduce you to a powerful storage management tool called ncdu. In case it's not already installed, you might need to install it first. For Fedora and Centos use:
 
 ```bash
 sudo dnf install ncdu
