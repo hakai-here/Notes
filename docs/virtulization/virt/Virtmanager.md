@@ -44,7 +44,7 @@ sudo nvim /etc/libvirt/libvirtd.conf
 ```
 Adjust the domain socket group ownership to `libvirt` and the UNIX socket permissions to `0770`
 
-![libvirt](../../images/libvirt.png)
+![libvirt](../../../images/libvirt.png)
 
 Finally, start and enable the libvirtd service:
 
