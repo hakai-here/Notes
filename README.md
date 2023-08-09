@@ -8,3 +8,5 @@ These are my preparatory notes for the topics of Virtualization and Linux operat
 - Linux 
     - Disk
         - [Formatting & Mounting Storage Volumes](./docs/linux/hardware/diskFormating.md)
+    - Firewall
+        - [Firewalld Basics and Usage with firewall-cmd](./docs/linux/firewall/firewalld.md)
