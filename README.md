@@ -6,6 +6,8 @@ These are my preparatory notes for the topics of Virtualization and Linux operat
         - [Virtualization using Virt-manager](./docs/virtulization/virt/Virtmanager.md)
 
 - Linux 
+    - Commands 
+        - [Understanding the usermod Command](./docs/linux/command/usermod.md)
     - Disk
         - [Formatting & Mounting Storage Volumes](./docs/linux/hardware/diskFormating.md)
     - Firewall
