@@ -7,7 +7,9 @@ These are my preparatory notes for the topics of Virtualization and Linux operat
 
 - Linux 
     - Commands 
+        - [Understanding the scp Command](./docs/linux/command/scp.md)
         - [Understanding the usermod Command](./docs/linux/command/usermod.md)
+
     - Disk
         - [Formatting & Mounting Storage Volumes](./docs/linux/hardware/diskFormating.md)
     - Firewall

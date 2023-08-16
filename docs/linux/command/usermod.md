@@ -4,7 +4,7 @@ The usermod command in Linux is a powerful tool that helps system administrators
 
 
 ## Adding Users to Groups
-magine you have a Linux server where you need to give specific users special permissions. This is where usermod comes in handy. You can add a user to an existing group using this command:
+Imagine you have a Linux server where you need to give specific users special permissions. This is where usermod comes in handy. You can add a user to an existing group using this command:
 
 ```bash
 sudo usermod -aG <group-name> <username>
